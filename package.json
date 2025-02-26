@@ -1,0 +1,14 @@
+{
+    "name": "dapp-template",
+    "version": "1.0.0",
+    "workspaces": {
+      "packages": [
+        "dapp"
+      ]
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dapp": "npm run dev --workspace=dapp"
+    }
+  }
+  
